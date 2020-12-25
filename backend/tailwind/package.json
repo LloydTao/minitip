@@ -5,5 +5,9 @@
   "repository": "https://github.com/LloydTao/minitip.git",
   "author": "LloydTao <LL23@live.co.uk>",
   "license": "MIT",
+  "dependencies": {
+    "autoprefixer": "^10.1.0",
+    "postcss": "^8.2.1",
+    "tailwindcss": "^2.0.2"
   }
 }
