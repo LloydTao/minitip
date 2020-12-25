@@ -7,6 +7,13 @@ on:
       - synchronize
       - reopened
 
+defaults:
+  run:
+    shell:
+      - bash
+    working-directory:
+      - backend/
+
 jobs:
   ci:
     name: Lint, build and test backend
@@ -36,7 +43,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Lint backend
-        run: black backend/ --check
+        run: black . --check
 
       - name: Check for missing migrations
         run: python manage.py makemigrations --check --dry-run
