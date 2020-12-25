@@ -9,10 +9,8 @@ on:
 
 defaults:
   run:
-    shell:
-      - bash
-    working-directory:
-      - backend/
+    shell: bash
+    working-directory: backend/
 
 jobs:
   ci:
