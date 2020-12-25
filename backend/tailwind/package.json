@@ -2,6 +2,10 @@
   "name": "minitip",
   "version": "1.0.0",
   "private": true,
+  "scripts": {
+    "lint:js": "eslint --ext .js --ignore-path .gitignore .",
+    "lint": "yarn lint:js"
+  },
   "repository": "https://github.com/LloydTao/minitip.git",
   "author": "LloydTao <LL23@live.co.uk>",
   "license": "MIT",
