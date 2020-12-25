@@ -1,0 +1,9 @@
+{
+  "name": "minitip",
+  "version": "1.0.0",
+  "private": true,
+  "repository": "https://github.com/LloydTao/minitip.git",
+  "author": "LloydTao <LL23@live.co.uk>",
+  "license": "MIT",
+  }
+}
